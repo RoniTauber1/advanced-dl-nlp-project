@@ -1,0 +1,29 @@
+﻿# Core
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+scikit-learn>=1.4
+tqdm>=4.66
+nltk>=3.8
+
+
+# PyTorch (Colab usually pre-installs, but included for local use)
+torch
+
+
+# Hugging Face stack
+transformers>=4.42
+datasets>=2.19
+accelerate>=0.30
+evaluate>=0.4
+
+
+# Optimization / quantization (ONNX)
+onnxruntime>=1.17
+optimum>=1.19
+
+
+# Experiment tracking, tuning, utils
+wandb>=0.17
+optuna>=3.6
+prettytable>=3.10
