@@ -1,0 +1,19 @@
+{
+  "project_root": "/content/drive/My Drive/Colab Notebooks",
+  "results_root": "/content/drive/My Drive/Colab Notebooks/results",
+  "model_alias": "distilbert-base-uncased",
+  "best_dir": "/content/drive/My Drive/Colab Notebooks/results/trial_2/best",
+  "best_params": {
+    "learning_rate": 2.4542745776594264e-05,
+    "per_device_train_batch_size": 32,
+    "weight_decay": 0.00031798662384521456,
+    "warmup_ratio": 0.05
+  },
+  "text_col": "text_generic",
+  "label_col": "Sentiment",
+  "class_names": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ]
+}
